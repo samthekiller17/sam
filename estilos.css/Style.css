@@ -14,4 +14,7 @@ body{
 
 .resumen_de_Elperfil{
     width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
 }
