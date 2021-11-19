@@ -150,3 +150,26 @@ body{
     color: #9153c9;
 }
 
+.header{
+    background: #292b2f;
+    padding: 15px 30px;
+    color: #fff;
+    height: 240px;
+}
+
+.header .nombre{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#3525af;
+}
+
+.header .papel{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .sobre_mi{
+    margin-top: 20px;
+    line-height: 26px;
+}
