@@ -18,3 +18,18 @@ body{
     margin: 25px auto;
     display: flex;
 }
+
+.izquierda{
+    background: #292b2f;
+    width: 250px;
+    padding: 0 13px;
+}
+
+.derecha{
+    width: calc(100% - 250px);
+}
+
+.izquierda .imagen_perfil{
+    text-align: center;
+    padding: 20px 0;
+}
