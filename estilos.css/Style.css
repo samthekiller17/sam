@@ -99,3 +99,54 @@ body{
     word-break: break-word;
     color: #fff;
 }
+
+
+.habilidades ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.habilidades .li_contacto,
+.hobbies .li_contacto{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #292b2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades .li_contacto{
+    background: #fff;
+
+}
+
+.habilidades .li_contacto .texto,
+.hobbies .li_contacto .texto{
+    margin-top: 5px;
+}
+
+.hobbies .li_contacto{
+    border: 2px solid #fff;
+}
+
+.hobbies .li_contacto .icono,
+.hobbies .li_contacto .texto{
+    color: #fff;
+}
+
+.hobbies .li_contacto:hover{
+    background: #fff;
+}
+
+.hobbies .li_contacto:hover .icono,
+.hobbies .li_contacto:hover .texto{
+    color: #9153c9;
+}
+
