@@ -33,3 +33,13 @@ body{
     text-align: center;
     padding: 20px 0;
 }
+
+.izquierda .imagen_perfil img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
