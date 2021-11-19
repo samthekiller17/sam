@@ -7,3 +7,11 @@
     list-style: none;
     font-family: 'Ubuntu', sans-serif;
 }
+
+body{
+    background: linear-gradient(to right, #3525af, #9153c9);
+}
+
+.resumen_de_Elperfil{
+    width: 800px;
+}
