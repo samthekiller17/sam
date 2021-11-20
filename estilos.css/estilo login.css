@@ -65,7 +65,7 @@ body{
 
 
 .form .input_wrap .input:focus{
-	border-color: #1dbf73;
+	border-color: #3525af;
 }
 
 .form .input_wrap .input_field{
@@ -83,7 +83,7 @@ body{
 }
 
 .form .input_wrap .btn.enabled{
-	background: #1dbf73;
+	background: #3525af;
 	cursor: pointer;
 }
 
