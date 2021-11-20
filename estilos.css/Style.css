@@ -237,3 +237,11 @@ body{
     height: 90%;
     background: #9153c9;
 }
+
+.proyectos .ingreso a{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#3525af;
+
+}
