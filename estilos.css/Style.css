@@ -171,5 +171,69 @@ body{
 
 .header .sobre_mi{
     margin-top: 20px;
-    line-height: 26px;
+    line-height: 15px;
+}
+
+.derecha_interno{
+    padding: 30px;
+    color: #292b2f;
+}
+
+.derecha_interno .estudios{
+    margin-top: 30px;
+
+}
+
+.derecha_interno .li_contacto{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.derecha_interno .li_contacto .dato{
+    width: 125px;
+    color: #9153c9;
+}
+
+.derecha_interno .li_contacto .informacion{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.derecha_interno .li_contacto .informacion_titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9153c9;
+}
+
+.derecha_interno .li_contacto .informacion_com{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.derecha_interno .li_contacto .informacion_cont{
+    margin-top: 15px;
+}
+
+.derecha_interno .li_contacto .informacion:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background: #9153c9;
+    border-radius: 50%;
+}
+
+.derecha_interno .li_contacto .informacion:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background: #9153c9;
 }
