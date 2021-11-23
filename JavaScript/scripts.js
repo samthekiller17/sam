@@ -10,7 +10,7 @@ function validation(){
 		return false;
 	}
 	else{
-		window.location.href="index.html";
+		window.location.href="./index.html";
 	}
 	
 }
